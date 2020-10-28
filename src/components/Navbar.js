@@ -6,6 +6,9 @@ import Hello from "./Hello";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import Contact from "./Contact";
+import "font-awesome/css/font-awesome.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 //import profileImage from ;
 
@@ -59,10 +62,13 @@ function Navbar() {
               </div>
               <div className="row">
                 <div className="field">LANGUAGES: </div>
-                <div className="field-value">English, Russian, German</div>
+                <div className="field-value">
+                  English, Russian, German, Georgian
+                </div>
               </div>
-              <div className="row">
-                <div className="icon"></div>
+              <div className="row field">
+                <FontAwesomeIcon icon={faGithub} className="icons" />
+                <FontAwesomeIcon icon={faInstagram} className="icons" />
               </div>
             </div>
           </div>
