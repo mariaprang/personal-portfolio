@@ -7,6 +7,8 @@ import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import Contact from "./Contact";
 
+//import profileImage from ;
+
 function Navbar() {
   return (
     <nav className="navbar">
@@ -35,6 +37,35 @@ function Navbar() {
           <Route path="/resume" component={Resume} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
+        </div>
+        <div className="info-content row">
+          <img className="logo" src={"/images/profile-image.png"} />
+
+          <div className="profile-wrap">
+            <div className="intro-wrap">
+              <div className="name">Maria Prangishvili</div>
+              <div className="name standard-text">
+                Lorem ipsum, dolar sit amet
+              </div>
+            </div>
+            <div className="profile-details">
+              <div className="row">
+                <div className="field">EMAIL: </div>
+                <div className="field-value">marie.prangishvili@gmail.com</div>
+              </div>
+              <div className="row">
+                <div className="field">LOCATION: </div>
+                <div className="field-value">Germany</div>
+              </div>
+              <div className="row">
+                <div className="field">LANGUAGES: </div>
+                <div className="field-value">English, Russian, German</div>
+              </div>
+              <div className="row">
+                <div className="icon"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
