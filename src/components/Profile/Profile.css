@@ -1,0 +1,48 @@
+.info-wrap {
+  background-color: #000;
+}
+
+.info-content {
+  margin-left: 100px;
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+}
+
+.profile-wrap {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.standard-text {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.field {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 3px 50px 30px 50px;
+}
+.intro-wrap {
+  margin: 20px 50px 50px 50px;
+}
+.icons {
+  font-size: 25px;
+  margin-right: 20px;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
