@@ -3,7 +3,7 @@ import "./Hello.css";
 
 const Hello = () => (
   <div>
-    <div className="hello">
+    <div className="hello section-box">
       <h1 className="headline-text">Hi_</h1>
       <div class="about-me">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
