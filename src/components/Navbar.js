@@ -8,7 +8,11 @@ import Resume from "./Resume";
 import Contact from "./Contact";
 import "font-awesome/css/font-awesome.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 //import profileImage from ;
 
@@ -67,8 +71,24 @@ function Navbar() {
                 </div>
               </div>
               <div className="row field">
-                <FontAwesomeIcon icon={faGithub} className="icons" />
-                <FontAwesomeIcon icon={faInstagram} className="icons" />
+                <a href="https://github.com/mariaprang">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="icons"
+                    target="_blank"
+                  />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/codingwith_maria/?hl=en"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faInstagram} className="icons" />
+                </a>
+
+                <a href="https://www.instagram.com/codingwith_maria/?hl=en">
+                  <FontAwesomeIcon icon={faLinkedin} className="icons" />
+                </a>
               </div>
             </div>
           </div>
