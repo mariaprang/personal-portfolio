@@ -1,0 +1,15 @@
+.headline-text {
+  font-family: "Trispace", sans-serif;
+}
+
+.hello {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.about-me {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: Roboto, sans-serif;
+}

@@ -3,3 +3,12 @@ body {
   margin: 0;
 }
 /* rfce */
+
+.content-wrap {
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
