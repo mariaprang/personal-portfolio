@@ -15,7 +15,7 @@ const Hello = () => (
         mollit anim id est laborum.
       </div>
     </div>
-    <hr />
+    {/* <hr /> */}
   </div>
 );
 
