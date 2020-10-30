@@ -9,13 +9,14 @@ import {
 } from "./components";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Profile />
         <Hello />
+        <Resume />
         <Portfolio />
 
         {/* <Route path="/" component={Hello} />
@@ -25,6 +26,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;
