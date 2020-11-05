@@ -11,6 +11,7 @@ const Resume = () => {
           <div class="entry">
             <div class="title">
               <h3>2012 - 2016</h3>
+              <p>IBSU, Undergrad, Georgia</p>
             </div>
             <div class="body">
               <p>
@@ -22,7 +23,20 @@ const Resume = () => {
           </div>
           <div class="entry">
             <div class="title">
-              <h3>2014 - 2016</h3>
+              <h3>Jun 2016 – Sep 2016 </h3>
+              <p>IBSU</p>
+            </div>
+            <div class="body">
+              <p>
+                Computer Science Summer Camp JavaScript Lecturer at
+                International Black Sea University
+              </p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="title">
+              <h3>2016 - 2020</h3>
+              <p>WHZ, Undergrad, Germany</p>
             </div>
             <div class="body">
               <p>
@@ -31,24 +45,31 @@ const Resume = () => {
               </p>
             </div>
           </div>
+
           <div class="entry">
             <div class="title">
-              <h3>2016 - 2020</h3>
+              <h3> 2015 – 2016</h3>
+              <p>EGBT, Georgia</p>
             </div>
             <div class="body">
               <p>
-                Studying Bachelors Program of "Informatik" at Westsächsische
-                Hochschule Zwickau, Germany
+                Front End Developer (HTML5, CSS3, JavaScript) at EGTB Software
+                Development LLC{" "}
               </p>
             </div>
           </div>
           <div class="entry">
             <div class="title">
-              <h3>2016 - 2020</h3>
+              <h3>2017 - ongoing</h3>
+              <p>Preply.com, remote</p>
             </div>
             <div class="body">
-              <p>Working as a</p>
-              <ul>
+              <p>
+                Software Development Tutor (teaching Java, SpringBoot,
+                JavaScript, Front-End Technologies) at an online teaching
+                platform 'Preply.com'
+              </p>
+              {/* <ul>
                 <li>Rerum sit libero possimus amet excepturi</li>
                 <li>
                   Exercitationem enim dolores sunt praesentium dolorum
@@ -58,30 +79,16 @@ const Resume = () => {
                   Modi aut dolores dignissimos sequi sit ut aliquid molestias
                   deserunt illo
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div class="entry">
             <div class="title">
-              <h3>2006 - 2008</h3>
-              <p>Title, Company</p>
+              <h3> 2016 – ongoing</h3>
+              <p>C4U, Leipzig,Germany</p>
             </div>
             <div class="body">
-              <p>
-                Voluptatibus veniam ea reprehenderit atque reiciendis non
-                laborum adipisci ipsa pariatur omnis.
-              </p>
-              <ul>
-                <li>Rerum sit libero possimus amet excepturi</li>
-                <li>
-                  Exercitationem enim dolores sunt praesentium dolorum
-                  praesentium
-                </li>
-                <li>
-                  Modi aut dolores dignissimos sequi sit ut aliquid molestias
-                  deserunt illo
-                </li>
-              </ul>
+              <p>Java Developer at community4you - your strong IT partner</p>
             </div>
           </div>
         </div>
