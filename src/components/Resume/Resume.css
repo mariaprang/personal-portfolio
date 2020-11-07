@@ -104,3 +104,14 @@
   content: "–";
   margin-right: 0.5em;
 }
+
+.download-wrap {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: 1px solid black;
+}
+
+.download-button {
+  text-decoration: none;
+}

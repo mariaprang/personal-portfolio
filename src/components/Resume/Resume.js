@@ -93,7 +93,17 @@ const Resume = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className="download-wrap">
+        <div>
+          <a
+            className="download-button"
+            href={"/resources/Maria_Prangishvili.pdf"}
+            download="M.Prangishvili-CV.pdf"
+          >
+            Download PDF
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
