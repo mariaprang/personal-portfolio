@@ -1,5 +1,7 @@
 import React from "react";
 import "./Resume.css";
+import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Resume = () => {
   return (
@@ -100,7 +102,7 @@ const Resume = () => {
             href={"/resources/Maria_Prangishvili.pdf"}
             download="M.Prangishvili-CV.pdf"
           >
-            Download PDF
+            Download PDF <FontAwesomeIcon icon={faAngleDoubleDown} />
           </a>
         </div>
       </div>
