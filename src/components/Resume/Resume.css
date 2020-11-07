@@ -104,3 +104,29 @@
   content: "–";
   margin-right: 0.5em;
 }
+
+.download-wrap {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 25px 50px;
+  background-color: #3399ff;
+  border-radius: 52px;
+}
+
+.download-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.download-button:hover {
+  color: #e6e6e6;
+}
+
+.download-wrap:hover {
+  background-color: #66b3ff;
+  cursor: pointer;
+}
