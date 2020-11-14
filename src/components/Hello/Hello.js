@@ -1,10 +1,17 @@
 import React from "react";
 import "./Hello.css";
+import Typical from "react-typical";
 
 const Hello = () => (
   <div>
     <div className="hello section-box">
-      <h1 className="headline-text">Hi_</h1>
+      <h1 className="headline-text">
+        <Typical
+          steps={["Hello world!", 1000, "Hello everyone!", 500]}
+          loop={Infinity}
+          wrapper="p"
+        />
+      </h1>
       <div class="about-me">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

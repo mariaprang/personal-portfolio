@@ -2,11 +2,14 @@ import React from "react";
 import "./Resume.css";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Typical from "react-typical";
 
 const Resume = () => {
   return (
     <div>
-      <h1 className="section-box headline-text">Education and Work_</h1>
+      <h1 className="section-box headline-text">
+        <Typical steps={["Education and Work_", 1000]} loop={1} wrapper="p" />
+      </h1>
 
       <div class="timeline-wrap">
         <div class="timeline">
