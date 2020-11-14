@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Typical from "react-typical";
 import {
   Navbar,
   Hello,

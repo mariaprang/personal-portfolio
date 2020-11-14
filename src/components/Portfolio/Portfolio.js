@@ -2,10 +2,14 @@ import React from "react";
 import "./Portfolio.css";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Typical from "react-typical";
+
 function Portfolio() {
   return (
     <div className="portfolio-wrap section-box">
-      <h1 className="headline-text">Projects_</h1>
+      <h1 className="headline-text">
+        <Typical steps={["Projects_", 1000]} loop={1} wrapper="p" />
+      </h1>
       <div className="project-wrap">
         <div className="row">
           <img
