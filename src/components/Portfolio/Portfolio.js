@@ -49,6 +49,42 @@ function Portfolio() {
           </div>
         </div>
       </div>
+
+      <div className="project-wrap">
+        <div className="row">
+          <img className="project-image" src="images/preply-project.png"></img>
+          <div className="project-description">
+            <div className="project-text">
+              <span className="project-span">Title:</span>
+              Java Tutor at Preply.com
+            </div>
+            <div className="description">
+              <span className="project-span">Info:</span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proide
+              <div className="tools-wrap row">
+                <div className="lang-wrap">Web Development</div>
+                <div className="lang-wrap">Java</div>
+                <div className="lang-wrap">OOP</div>
+                <div className="lang-wrap">Data Structures & Algorithms</div>
+                <div className="lang-wrap">Software Architecture</div>
+                <div className="lang-wrap">Mentoring</div>
+              </div>
+              <a href="https://github.com/mariaprang/project-management-saasovation">
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="icons"
+                  target="_blank"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

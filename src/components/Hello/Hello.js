@@ -7,7 +7,7 @@ const Hello = () => (
     <div className="hello section-box">
       <h1 className="headline-text">
         <Typical
-          steps={["Hello world!", 1000, "Hello everyone!", 500]}
+          steps={["Hello world!", 2000, "Hello everyone!", 1000]}
           loop={Infinity}
           wrapper="p"
         />

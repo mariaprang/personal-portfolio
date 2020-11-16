@@ -16,7 +16,7 @@
   min-height: 100vh;
   width: 100vw;
   margin: 0;
-  padding: 12vh 100px;
+  padding-bottom: 10vh;
   font-family: "Source Sans Pro", arial, sans-serif;
   font-weight: 300;
   color: #333;
@@ -27,8 +27,9 @@
 }
 
 .timeline {
+  z-index: -1;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   background: #fff;
   padding: 100px 50px;
   position: relative;
