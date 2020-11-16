@@ -27,8 +27,9 @@
 }
 
 .timeline {
+  z-index: -1;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   background: #fff;
   padding: 100px 50px;
   position: relative;
