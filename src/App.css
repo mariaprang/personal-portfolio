@@ -5,7 +5,8 @@ body {
 /* rfce */
 
 .section-box {
-  margin: 50px 130px;
+  width: 90%;
+  margin: 0 auto;
 }
 hr {
   box-sizing: content-box;
