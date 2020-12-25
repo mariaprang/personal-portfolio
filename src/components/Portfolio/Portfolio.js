@@ -67,10 +67,10 @@ function Portfolio() {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proide
               <div className="tools-wrap row">
-                <div className="lang-wrap">Web Development</div>
+                <div className="lang-wrap">Web Dev</div>
                 <div className="lang-wrap">Java</div>
                 <div className="lang-wrap">OOP</div>
-                <div className="lang-wrap">Data Structures & Algorithms</div>
+                <div className="lang-wrap">DSA</div>
                 <div className="lang-wrap">Software Architecture</div>
                 <div className="lang-wrap">Mentoring</div>
               </div>
