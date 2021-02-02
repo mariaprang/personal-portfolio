@@ -7,6 +7,7 @@ import {
   Resume,
   Contact,
   Portfolio,
+  Skills,
 } from "./components";
 import "./App.css";
 
@@ -18,6 +19,7 @@ const App = () => {
         <Profile />
         <Hello />
         <Resume />
+        <Skills />
         <Portfolio />
 
         {/* <Route path="/" component={Hello} />
