@@ -1,0 +1,57 @@
+.skills-wrap {
+  margin-top: 100px;
+}
+
+.skills-row {
+  display: flex;
+  min-height: 700px;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 700px;
+  /* background-image: url("https://www.seekpng.com/png/full/567-5670503_connect-left-and-right-brain-logo.png"); */
+  background-image: url("https://admissions411.files.wordpress.com/2017/06/left-brain-vs-right-brain-functions.png?w=980&h=450&crop=1");
+}
+.skills-headline {
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.line-row {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.line-row span {
+  font-family: "Trispace", sans-serif;
+  text-transform: uppercase;
+}
+
+.highlight {
+  padding: 0.5em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.bright {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(249, 225, 48, 0.7),
+    rgba(255, 225, 0, 0.3)
+  );
+}
+
+.dark {
+  background-image: linear-gradient(
+    to right,
+    rgba(153, 153, 153, 0.1),
+    rgba(133, 153, 153, 0.5),
+    rgba(153, 153, 153, 0.1)
+  );
+}
