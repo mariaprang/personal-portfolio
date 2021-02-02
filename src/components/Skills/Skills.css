@@ -24,7 +24,8 @@
   margin: 0 auto;
 }
 
-.line-row span {
+.line-row span,
+.skill span {
   font-family: "Trispace", sans-serif;
   text-transform: uppercase;
 }
@@ -54,4 +55,8 @@
     rgba(133, 153, 153, 0.5),
     rgba(153, 153, 153, 0.1)
   );
+}
+
+.skill {
+  margin: 50px 0;
 }

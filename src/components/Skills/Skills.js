@@ -1,7 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTools } from "@fortawesome/free-solid-svg-icons";
-import { faPaintBrush } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPaintBrush,
+  faDatabase,
+  faLeaf,
+  faCode,
+  faSitemap,
+} from "@fortawesome/free-solid-svg-icons";
+
+import { faJava } from "@fortawesome/free-brands-svg-icons";
 
 import Typical from "react-typical";
 import "./Skills.css";
@@ -24,7 +32,26 @@ const Skills = () => {
         </div>
       </div>
       <div className="skills-row">
-        <div className="skills-left"></div>
+        <div className="skills-left">
+          <div className="skill">
+            <FontAwesomeIcon icon={faSitemap} className="icons" />
+            <span className="highlight dark">Object Oriented Programming</span>
+          </div>
+          <div className="skill">
+            <FontAwesomeIcon icon={faCode} className="icons" />
+            <span className="highlight dark">In-depth knowledge of Java</span>
+          </div>
+
+          <div className="skill">
+            <FontAwesomeIcon icon={faLeaf} className="icons" />
+            <span className="highlight dark">SpringBoot</span>
+          </div>
+
+          <div className="skill">
+            <FontAwesomeIcon icon={faDatabase} className="icons" />
+            <span className="highlight dark">MySQL</span>
+          </div>
+        </div>
 
         <div className="skills-right"></div>
       </div>
