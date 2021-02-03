@@ -4,11 +4,11 @@
 
 .skills-row {
   display: flex;
-  min-height: 700px;
+  min-height: 500px;
   flex-direction: row;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 700px;
+  background-size: 1000px;
   /* background-image: url("https://www.seekpng.com/png/full/567-5670503_connect-left-and-right-brain-logo.png"); */
   background-image: url("https://admissions411.files.wordpress.com/2017/06/left-brain-vs-right-brain-functions.png?w=980&h=450&crop=1");
 }
@@ -59,4 +59,13 @@
 
 .skill {
   margin: 50px 0;
+}
+
+.skills-right {
+}
+
+.skills-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

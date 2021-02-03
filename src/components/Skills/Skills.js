@@ -7,9 +7,15 @@ import {
   faLeaf,
   faCode,
   faSitemap,
+  faPalette,
 } from "@fortawesome/free-solid-svg-icons";
 
-import { faJava } from "@fortawesome/free-brands-svg-icons";
+import {
+  faJava,
+  faHtml5,
+  faJsSquare,
+  faCss3Alt,
+} from "@fortawesome/free-brands-svg-icons";
 
 import Typical from "react-typical";
 import "./Skills.css";
@@ -53,7 +59,44 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="skills-right"></div>
+        <div className="skills-right">
+          <div className="skill">
+            <FontAwesomeIcon
+              icon={faJsSquare}
+              style={{ color: "#EFD81B" }}
+              className="icons"
+            />
+            <span className="highlight bright">
+              JavaScript (ES6 and Vanilla)
+            </span>
+          </div>
+
+          <div className="skill">
+            <FontAwesomeIcon
+              icon={faHtml5}
+              style={{ color: "#F1652A" }}
+              className="icons"
+            />
+            <span className="highlight bright">HTML</span>
+          </div>
+          <div className="skill">
+            <FontAwesomeIcon
+              icon={faCss3Alt}
+              style={{ color: "#275CE7" }}
+              className="icons"
+            />
+            <span className="highlight bright">CSS</span>
+          </div>
+
+          <div className="skill">
+            <FontAwesomeIcon
+              icon={faPalette}
+              style={{ color: "#006666" }}
+              className="icons"
+            />
+            <span className="highlight bright">Inkscape</span>
+          </div>
+        </div>
       </div>
     </div>
   );
