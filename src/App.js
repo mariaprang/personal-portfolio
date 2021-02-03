@@ -21,6 +21,7 @@ const App = () => {
         <Resume />
         <Skills />
         <Portfolio />
+        <Contact />
 
         {/* <Route path="/" component={Hello} />
         <Route path="/resume" component={Resume} />
