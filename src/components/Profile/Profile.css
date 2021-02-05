@@ -1,5 +1,30 @@
 .info-wrap {
   background-color: #000;
+  position: relative;
+  height: 500px;
+  margin-bottom: 100px;
+  background-image: url(background-other.jpg);
+  background-color: #441fcc;
+
+  background-repeat: no-repeat;
+  background-position-y: 37%;
+  background-position-x: 45%;
+  background-size: cover;
+  position: relative;
+}
+
+.info-wrap:before {
+  background: linear-gradient(
+    54deg,
+    rgba(0, 127, 253, 0.85) 30%,
+    hsla(0, 27%, 54%, 1)
+  );
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+  z-index: 0;
 }
 
 .info-content {
@@ -10,6 +35,8 @@
 .profile-wrap {
   color: #fff;
   font-family: "Roboto Mono", monospace;
+  position: relative;
+  left: 400px;
 }
 
 .row {
@@ -32,7 +59,7 @@
   margin: 3px 50px 30px 50px;
 }
 .intro-wrap {
-  margin: 20px 50px 50px 50px;
+  margin: 140px 50px 50px 50px;
 }
 .icons {
   font-size: 25px;
@@ -43,4 +70,12 @@ a:visited,
 a:hover,
 a:active {
   color: inherit;
+}
+
+.logo {
+  position: absolute;
+  width: 20%;
+  top: 120px;
+  margin-top: 30px;
+  border-radius: 3px;
 }
