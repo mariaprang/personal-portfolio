@@ -8,9 +8,11 @@
   flex-direction: row;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1000px;
+  background-size: 700px;
   /* background-image: url("https://www.seekpng.com/png/full/567-5670503_connect-left-and-right-brain-logo.png"); */
-  background-image: url("https://admissions411.files.wordpress.com/2017/06/left-brain-vs-right-brain-functions.png?w=980&h=450&crop=1");
+  /* background-image: url("https://admissions411.files.wordpress.com/2017/06/left-brain-vs-right-brain-functions.png?w=980&h=450&crop=1"); */
+  background-image: url("skills-background.png");
+  background-image: url("Cognitive-Neuroscience.jpg");
 }
 .skills-headline {
 }
