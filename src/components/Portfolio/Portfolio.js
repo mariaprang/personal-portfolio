@@ -10,40 +10,41 @@ function Portfolio() {
       <h1 className="headline-text">
         <Typical steps={["Projects_", 1000]} loop={1} wrapper="p" />
       </h1>
-      <div className="project-wrap">
-        <div className="row">
+      <div className="project-wrap row">
+        <div className="image-wrap">
           <img
             className="project-image"
             src="https://support.crowdin.com/assets/docs/integration_jira_subtask.png"
-          ></img>
-          <div className="project-description">
-            <div className="project-text">
-              <span className="project-span">Title:</span>
-              Jira-like software
+          />
+        </div>
+        <div className="project-description">
+          <div className="project-text">Jira-like software</div>
+          <div className="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proide
+            <div className="tools-wrap">
+              <div className="lang-wrap">HTML</div>
+              <div className="lang-wrap">CSS</div>
+              <div className="lang-wrap">Java</div>
+              <div className="lang-wrap">SpringBoot</div>
+              <div className="lang-wrap">Thymeleaf</div>
+              <div className="lang-wrap">MySQL</div>
+              <div className="lang-wrap">Hibernate</div>
             </div>
-            <div className="description">
-              <span className="project-span">Info:</span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proide
-              <div className="tools-wrap row">
-                <div className="lang-wrap">HTML</div>
-                <div className="lang-wrap">CSS</div>
-                <div className="lang-wrap">Java</div>
-                <div className="lang-wrap">SpringBoot</div>
-                <div className="lang-wrap">Thymeleaf</div>
-                <div className="lang-wrap">MySQL</div>
-                <div className="lang-wrap">Hibernate</div>
-              </div>
+            <div className="source-wrap row">
               <a href="https://github.com/mariaprang/project-management-saasovation">
                 <FontAwesomeIcon
                   icon={faGithub}
                   className="icons"
                   target="_blank"
                 />
+              </a>
+              <a className="web-link" href="www.example.com">
+                www.example.com
               </a>
             </div>
           </div>
@@ -52,21 +53,22 @@ function Portfolio() {
 
       <div className="project-wrap">
         <div className="row">
-          <img className="project-image" src="images/preply-project.png"></img>
+          <div className="image-wrap">
+            <img
+              className="project-image"
+              src="images/preply-project.png"
+            ></img>
+          </div>
           <div className="project-description">
-            <div className="project-text">
-              <span className="project-span">Title:</span>
-              Java Tutor at Preply.com
-            </div>
+            <div className="project-text">Java Tutor at Preply.com</div>
             <div className="description">
-              <span className="project-span">Info:</span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proide
-              <div className="tools-wrap row">
+              <div className="tools-wrap">
                 <div className="lang-wrap">Web Dev</div>
                 <div className="lang-wrap">Java</div>
                 <div className="lang-wrap">OOP</div>
@@ -74,13 +76,18 @@ function Portfolio() {
                 <div className="lang-wrap">Software Architecture</div>
                 <div className="lang-wrap">Mentoring</div>
               </div>
-              <a href="https://github.com/mariaprang/project-management-saasovation">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className="icons"
-                  target="_blank"
-                />
-              </a>
+              <div className="source-wrap row">
+                <a href="https://github.com/mariaprang/project-management-saasovation">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="icons"
+                    target="_blank"
+                  />
+                </a>
+                <a className="web-link" href="www.example.com">
+                  www.example.com
+                </a>
+              </div>
             </div>
           </div>
         </div>

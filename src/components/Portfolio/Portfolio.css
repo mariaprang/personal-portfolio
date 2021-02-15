@@ -1,18 +1,12 @@
-.portfolio-wrap {
-  height: 1000px;
+/* .portfolio-wrap {
+  height: auto;
 }
 
 .project-wrap {
   font-family: "Roboto Mono", monospace;
-  width: 95%;
-  padding: 50px;
+  width: 85%;
   box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 50px;
-}
-
-.project-image {
-  width: 40%;
-  height: 100%;
+  margin: 25px auto;
 }
 
 .project-span {
@@ -30,33 +24,135 @@
 .project-description {
   margin-left: 50px;
   margin-top: 30px;
+  padding: 50px;
+
   text-align: justify;
 }
 
 .tools-wrap {
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .lang-wrap {
-  /* width: fit-content;
-  padding: 1px;
-  padding: 4px 7px;
-  border-radius: 5px;
-  margin-right: 20px;
-  text-align: center;
-  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2); */
-
   display: inline-block;
   font-size: 14px;
   line-height: 20px;
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
   padding: 5px 10px;
-  margin-right: 10px;
+  margin: 3px 10px;
   border-radius: 3px;
 }
 
 .icon-wrap {
   margin-top: 30px;
+}
+
+.icons {
+  float: right;
+}
+
+.image-wrap {
+  background-color: red;
+  height: 100%;
+}
+
+.image-wrap img {
+  width: 100%;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+.project-wrap {
+  width: 85%;
+  background-color: #fff;
+  margin: 30px auto;
+  transition: box-shadow 0.3s;
+  min-height: 300px;
+}
+
+.project-wrap:hover {
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-description {
+  width: 60%;
+  border: 1px solid #f1f1f1;
+  padding: 50px 50px 40px 30px;
+  font-family: "Roboto", sans-serif;
+}
+.image-wrap img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.image-wrap {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #e6e6e5;
+}
+
+.project-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Trispace", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+.lang-wrap {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 14%);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.tools-wrap {
+  margin-top: 50px;
+}
+
+.source-wrap {
+  width: 100%;
+  margin-top: 50px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.web-link {
+  font-family: Roboto Mono, monospace;
+  font-size: 14px;
+  line-height: 20px;
+  float: right;
+  color: #6d56c1;
+  transition: all 0.3s;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.web-link:hover {
+  text-decoration: underline;
+}
+
+.icons:hover {
+  color: #202020;
 }
